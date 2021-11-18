@@ -1,0 +1,34 @@
+$body-bg: #0a192f;
+$body-color: #ccd6f6;
+$primary: #64ffda;
+$font-family-sans-serif: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text',
+  -apple-system, system-ui, sans-serif;
+
+@import '~bootswatch/dist/litera/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/litera/bootswatch';
+p {
+  font-family: $font-family-sans-serif;
+}
+.hero {
+  min-height: 95vh;
+}
+
+.big-heading {
+  font-size: clamp(35px, 8vw, 60px);
+}
+
+.clip-path {
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background-color: $body-bg;
+  width: 100%;
+  height: 100%;
+  &-container {
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    filter: drop-shadow(100px -30px 18px rgba(0, 0, 0, 0.4));
+  }
+}

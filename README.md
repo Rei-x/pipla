@@ -1,0 +1,16 @@
+# Portfolio website for Pipla
+
+Simple portfolio website created as addition to application for https://dziewczynywgrze.pl/
+scholarship and mentoring program.
+
+## Installation
+
+```
+npm install
+```
+
+## Run app
+
+```
+npm start
+```
