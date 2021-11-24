@@ -39,7 +39,7 @@ const Home = () => (
         <h1>Wideo</h1>
         <Video
           className="mt-4 rounded"
-          url="https://www.youtube.com/embed/U7DxsesC0_c"
+          url="https://www.youtube.com/embed/ETolPEfJUWg"
         />
       </Container>
     </Fade>
