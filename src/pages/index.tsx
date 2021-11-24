@@ -1,11 +1,12 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import { Container, Image } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import UseAnimations from 'react-useanimations';
 import arrowDown from 'react-useanimations/lib/arrowDown';
-import Video from '@/components/Video';
-import Particles from '@/components/Particles';
+import Gallery from '@/components/Gallery';
 import Navbar from '@/components/Navbar';
+import Particles from '@/components/Particles';
+import Video from '@/components/Video';
 
 const Home = () => (
   <Container className="text-center p-0" fluid>
@@ -46,13 +47,7 @@ const Home = () => (
       <Container id="portfolio" className="py-5">
         <h1>Portfolio</h1>
         <Container className="mt-3">
-          {Array.from(Array(10).keys()).map((key) => (
-            <Image
-              className="m-1 rounded"
-              key={key}
-              src={`https://picsum.photos/400?random=${key}`}
-            />
-          ))}
+          <Gallery />
         </Container>
       </Container>
     </Fade>

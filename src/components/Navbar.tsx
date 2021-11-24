@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import DWGLogo from '@/static/images/logo_dwg.png';
 
 const CustomNavbar = () => (
   <Navbar
@@ -10,7 +11,10 @@ const CustomNavbar = () => (
     className="shadow-lg"
   >
     <Container>
-      <Navbar.Brand href="#home">pipla 🤪</Navbar.Brand>
+      <Navbar.Brand href="#home">
+        Pipla +{' '}
+        <img src={DWGLogo} alt="Logo dziewczynywgrze.pl" height="60px" />{' '}
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
@@ -21,5 +25,4 @@ const CustomNavbar = () => (
     </Container>
   </Navbar>
 );
-
 export default CustomNavbar;

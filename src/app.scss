@@ -3,6 +3,7 @@ $body-color: #ccd6f6;
 $primary: #64ffda;
 $font-family-sans-serif: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text',
   -apple-system, system-ui, sans-serif;
+$zindex-sticky: 900;
 
 @import '~bootswatch/dist/litera/variables';
 @import '~bootstrap/scss/bootstrap';
