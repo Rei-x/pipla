@@ -18,5 +18,16 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Pipla - portfolio',
+        short_name: 'Pipla',
+        start_url: '/',
+        background_color: '#0a192f',
+        theme_color: '#64ffda',
+        icon: 'src/static/images/favicon.png', // This path is relative to the root of the site.
+      },
+    },
   ],
 };

@@ -12,8 +12,9 @@ const CustomNavbar = () => (
   >
     <Container>
       <Navbar.Brand href="#home">
-        Pipla +{' '}
-        <img src={DWGLogo} alt="Logo dziewczynywgrze.pl" height="60px" />{' '}
+        Pipla +{` `}
+        <img src={DWGLogo} alt="Logo dziewczynywgrze.pl" height="60px" />
+        {` `}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
