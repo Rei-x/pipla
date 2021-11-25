@@ -1,10 +1,13 @@
 import React from 'react';
-import { PageProps } from 'gatsby';
+import Container from 'react-bootstrap/Container';
+import Layout from '@/components/Layout';
 
-const NotFound: React.FC<PageProps> = () => (
-  <main>
-    <p>Sorry, page not found!</p>
-  </main>
+const NotFound = () => (
+  <Layout title="Nie znaleziono strony">
+    <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
+      <div className="text-center">Sorki, ale ta strona nie istnieje 😥</div>
+    </Container>
+  </Layout>
 );
 
 export default NotFound;

@@ -4,13 +4,12 @@ import { Container } from 'react-bootstrap';
 import UseAnimations from 'react-useanimations';
 import arrowDown from 'react-useanimations/lib/arrowDown';
 import Gallery from '@/components/Gallery';
-import Navbar from '@/components/Navbar';
 import Particles from '@/components/Particles';
 import Video from '@/components/Video';
+import Layout from '@/components/Layout';
 
 const Home = () => (
-  <Container className="text-center p-0" fluid>
-    <Navbar />
+  <Layout title="Pipla 🤪">
     <Container
       fluid
       id="home"
@@ -51,7 +50,7 @@ const Home = () => (
         </Container>
       </Container>
     </Fade>
-  </Container>
+  </Layout>
 );
 
 export default Home;
