@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Helmet } from 'react-helmet';
+import Footer from './Footer';
 import Navbar from './Navbar';
 
 const Layout: React.FC<{ children: React.ReactNode; title: string }> = ({
@@ -21,6 +22,7 @@ const Layout: React.FC<{ children: React.ReactNode; title: string }> = ({
     </Helmet>
     <Navbar />
     {children}
+    <Footer />
   </Container>
 );
 
