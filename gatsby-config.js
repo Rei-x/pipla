@@ -29,5 +29,21 @@ module.exports = {
         icon: 'src/static/images/favicon.png', // This path is relative to the root of the site.
       },
     },
+    {
+       resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-BVR93G7NLF",
+        ],
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
+      },
+    }
   ],
 };
