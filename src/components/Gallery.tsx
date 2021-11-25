@@ -7,6 +7,9 @@ const CustomGallery = () => {
   useEffect(() => {
     const galleryRow = document.querySelector(`#portfolio > .container > div`);
     galleryRow.classList.add(`justify-content-center`);
+    return () => {
+      galleryRow.classList.remove(`justify-content-center`);
+    };
   }, []);
 
   const data = useStaticQuery(graphql`
