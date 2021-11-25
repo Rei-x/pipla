@@ -1,15 +1,10 @@
 {
-  "name": "gatsby-starter-ts",
-  "description": "A TypeScript starter for Gatsby that includes all you need to build amazing projects",
+  "name": "pipla",
+  "description": "Simple portfolio website created as addition to application for https://dziewczynywgrze.pl/scholarship and mentoring program",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (https://joaopedro.dev)",
+  "author": "Bartosz Gotowski",
   "license": "MIT",
-  "keywords": [
-    "gatsby",
-    "starter",
-    "typescript"
-  ],
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
