@@ -34,7 +34,7 @@ const Home = () => (
       </div>
     </Container>
     <Fade>
-      <Container id="wideo" className="wideo-container py-5">
+      <Container id="wideo" className="wideo-container text-center py-5">
         <h1>Wideo</h1>
         <Video
           className="mt-4 rounded"
@@ -43,7 +43,7 @@ const Home = () => (
       </Container>
     </Fade>
     <Fade cascade>
-      <Container id="portfolio" className="py-5">
+      <Container id="portfolio" className="text-center py-5">
         <h1>Portfolio</h1>
         <Container className="mt-3">
           <Gallery />
