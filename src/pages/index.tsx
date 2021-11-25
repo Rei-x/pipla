@@ -19,7 +19,7 @@ const Home = () => (
       <Fade>
         <p className="text-primary m-0">Nazywam się</p>
         <h1 className="big-heading">Dominika Jakubczyk</h1>
-        <p>Zajmuje się grafiką 3D, freelancingiem i głaskaniem piesków 🐶</p>
+        <p>Zajmuje się grafiką 3D i freelancingiem</p>
         <UseAnimations
           className="mx-auto"
           animation={arrowDown}
